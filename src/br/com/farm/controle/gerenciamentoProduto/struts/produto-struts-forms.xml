@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" 
+	"http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+<struts-config>
+<form-beans>
+	<form-bean name="produtoForm" type="org.apache.struts.action.DynaActionForm">
+		<form-property name="acao" type="java.lang.String" initial=""/>
+		<form-property name="mostraResultado" type="boolean" initial="false" />
+		<form-property name="id" type="java.lang.String" />
+		
+		<form-property name="nome" type="java.lang.String" initial="" />
+		<form-property name="descricao" type="java.lang.String" initial="" />
+		<form-property name="laboratorio" type="java.lang.String" initial="" />
+		<form-property name="quantidade" type="java.lang.String" initial="" />
+		<form-property name="valorVenda" type="java.lang.String" initial="" />
+		<form-property name="produtos" type="java.util.Collection" />
+	</form-bean>
+</form-beans>
+</struts-config>

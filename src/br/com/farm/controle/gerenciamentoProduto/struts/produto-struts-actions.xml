@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" 
+	"http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<action-mappings>
+		<!-- Abre menu de opcoes de gerenciamento de produto 
+			foi criando em action para verificar a permissao-->
+		<action
+			path="/GerenciamentoProduto"
+			type="br.com.farm.controle.gerenciamentoProduto.actions.GerenciamentoProdutoAction"
+			name="produtoForm"
+			validate="false"
+			scope="request">
+			<forward name="showGerenciamentoProduto" path="/pages/gerenciamentoProduto/GerenciamentoProduto.jsp" redirect="false" />
+		</action>
+		
+		<!-- Cadastramento de Produto -->
+		<action  
+			path="/CadastraProduto" 
+			type="br.com.farm.controle.gerenciamentoProduto.actions.CadastraProdutoAction"
+			name="produtoForm"
+			input="/pages/gerenciamentoProduto/CadastraProduto.jsp"
+			validate="true"
+			scope="request" >
+			<forward name="invalid" path="/pages/gerenciamentoProduto/CadastraProduto.jsp" redirect="false"/>
+			
+			<forward name="showCadastroProdutoForm" path="/pages/gerenciamentoProduto/CadastraProduto.jsp" redirect="false"/>
+			<forward name="successCadastroProduto" path="/pages/gerenciamentoProduto/MsgProduto.jsp?acao=success" redirect="false" />
+			<forward name="failureCadastroProduto" path="/pages/gerenciamentoProduto/MsgProduto.jsp?acao=failure" redirect="false" />
+		</action>
+		
+		<action
+			path="/ConsultarProduto"
+			type="br.com.farm.controle.gerenciamentoProduto.actions.ConsultarProdutoAction"
+			name="produtoForm"
+			validate="false"
+			input="/pages/gerenciamentoProduto/ConsultarProduto.jsp"
+			scope="request">
+			<forward name="invalid" path="/pages/gerenciamentoProduto/ConsultarProduto.jsp" redirect="false" />
+			<forward name="showConsultarProdutoForm" path="/pages/gerenciamentoProduto/ConsultarProduto.jsp" redirect="false" />
+			<forward name="showResult"               path="/pages/gerenciamentoProduto/ConsultarProduto.jsp" redirect="false" />
+			<forward name="showAlterarProdutoForm"   path="/pages/gerenciamentoProduto/AlterarProduto.jsp" redirect="false" />
+		</action>
+		
+		<action
+			path="/AlterarProduto"
+			type="br.com.farm.controle.gerenciamentoProduto.actions.AlterarProdutoAction"
+			name="produtoForm"
+			validate="false"
+			input="/pages/gerenciamentoProduto/AlterarProduto.jsp"
+			scope="request">
+			<forward name="invalid" path="/pages/gerenciamentoProduto/AlterarProduto.jsp" redirect="false" />
+			<forward name="successUpdateProduto" path="/pages/gerenciamentoProduto/MsgProduto.jsp?acao=successUpdate" redirect="false" />
+			<forward name="failureUpdateProduto" path="/pages/gerenciamentoProduto/MsgProduto.jsp?acao=failureUpdate" redirect="false" />
+			<forward name="successDeleteProduto" path="/pages/gerenciamentoProduto/MsgProduto.jsp?acao=successDelete" redirect="false" />
+			<forward name="failureDeleteProduto" path="/pages/gerenciamentoProduto/MsgProduto.jsp?acao=failureDelete" redirect="false" />
+		</action>
+		
+		
+	</action-mappings>
+</struts-config>

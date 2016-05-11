@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="StrutsProcess">
+ <PROCESS-ITEM ID="#GerenciamentoProduto" NAME="action0"
+  PATH="/GerenciamentoProduto" SHAPE="32,17,0,0" TITLE="produtoForm"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="showGerenciamentoProduto" NAME="forward0"
+   PATH="/pages/gerenciamentoProduto/GerenciamentoProduto.jsp"
+   TARGET="page0" TITLE="showGerenciamentoProduto" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page0"
+  PATH="/pages/gerenciamentoProduto/GerenciamentoProduto.jsp"
+  SHAPE="240,34,0,0" SUBTYPE="jsp" TITLE="GerenciamentoProduto.jsp"
+  TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM ID="#CadastraProduto" NAME="action1"
+  PATH="/CadastraProduto" SHAPE="32,129,0,0" TITLE="produtoForm"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="invalid" NAME="forward0"
+   PATH="/pages/gerenciamentoProduto/CadastraProduto.jsp" TARGET="page1"
+   TITLE="invalid" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="successCadastroProduto" NAME="forward1"
+   PATH="/pages/gerenciamentoProduto/MsgProduto.jsp?acao=success"
+   TARGET="page2" TITLE="successCadastroProduto" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="showCadastroProdutoForm" NAME="forward2"
+   PATH="/pages/gerenciamentoProduto/CadastraProduto.jsp" TARGET="page1"
+   TITLE="showCadastroProdutoForm" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="failureCadastroProduto" NAME="forward3"
+   PATH="/pages/gerenciamentoProduto/MsgProduto.jsp?acao=failure"
+   TARGET="page2" TITLE="failureCadastroProduto" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#ConsultarProduto" NAME="action2"
+  PATH="/ConsultarProduto" SHAPE="32,449,0,0" TITLE="produtoForm"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="showResult" NAME="forward0"
+   PATH="/pages/gerenciamentoProduto/ConsultarProduto.jsp"
+   TARGET="page3" TITLE="showResult" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="invalid" NAME="forward1"
+   PATH="/pages/gerenciamentoProduto/ConsultarProduto.jsp"
+   TARGET="page3" TITLE="invalid" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="showAlterarProdutoForm" NAME="forward2"
+   PATH="/pages/gerenciamentoProduto/AlterarProduto.jsp" TARGET="page4"
+   TITLE="showAlterarProdutoForm" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="showConsultarProdutoForm" NAME="forward3"
+   PATH="/pages/gerenciamentoProduto/ConsultarProduto.jsp"
+   TARGET="page3" TITLE="showConsultarProdutoForm" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page1"
+  PATH="/pages/gerenciamentoProduto/CadastraProduto.jsp"
+  SHAPE="288,146,0,0" SUBTYPE="jsp" TITLE="CadastraProduto.jsp"
+  TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM NAME="page2"
+  PATH="/pages/gerenciamentoProduto/MsgProduto.jsp" SHAPE="288,354,0,0"
+  SUBTYPE="jsp" TITLE="MsgProduto.jsp" TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM NAME="page3"
+  PATH="/pages/gerenciamentoProduto/ConsultarProduto.jsp"
+  SHAPE="288,466,0,0" SUBTYPE="jsp" TITLE="ConsultarProduto.jsp"
+  TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM NAME="page4"
+  PATH="/pages/gerenciamentoProduto/AlterarProduto.jsp"
+  SHAPE="288,674,0,0" SUBTYPE="jsp" TITLE="AlterarProduto.jsp"
+  TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM ID="#AlterarProduto" NAME="action3"
+  PATH="/AlterarProduto" SHAPE="32,449,0,0" TITLE="produtoForm"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="failureUpdateProduto" NAME="forward0"
+   PATH="/pages/gerenciamentoProduto/MsgProduto.jsp?acao=failureUpdate"
+   TARGET="page2" TITLE="failureUpdateProduto" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="invalid" NAME="forward1"
+   PATH="/pages/gerenciamentoProduto/AlterarProduto.jsp" TARGET="page4"
+   TITLE="invalid" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="successUpdateProduto" NAME="forward2"
+   PATH="/pages/gerenciamentoProduto/MsgProduto.jsp?acao=successUpdate"
+   TARGET="page2" TITLE="successUpdateProduto" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="successDeleteProduto" NAME="forward3"
+   PATH="/pages/gerenciamentoProduto/MsgProduto.jsp?acao=successDelete"
+   TARGET="page2" TITLE="successDeleteProduto" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="failureDeleteProduto" NAME="forward4"
+   PATH="/pages/gerenciamentoProduto/MsgProduto.jsp?acao=failureDelete"
+   TARGET="page2" TITLE="failureDeleteProduto" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+</PROCESS>

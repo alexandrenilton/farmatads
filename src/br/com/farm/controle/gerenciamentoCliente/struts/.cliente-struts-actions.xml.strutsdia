@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="StrutsProcess">
+ <PROCESS-ITEM ID="#CadastraCliente" NAME="action0"
+  PATH="/CadastraCliente" SHAPE="32,17,0,0" TITLE="cadastraClienteForm"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="failureCadastroCliente" NAME="forward0"
+   PATH="/pages/gerenciamentoCliente/MsgCliente.jsp?acao=failure"
+   TARGET="page0" TITLE="failureCadastroCliente" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="showCadastroClienteForm" NAME="forward1"
+   PATH="/pages/gerenciamentoCliente/CadastraCliente.jsp" TARGET="page1"
+   TITLE="showCadastroClienteForm" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="successCadastroCliente" NAME="forward2"
+   PATH="/pages/gerenciamentoCliente/MsgCliente.jsp?acao=success"
+   TARGET="page0" TITLE="successCadastroCliente" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="invalid" NAME="forward3"
+   PATH="/pages/gerenciamentoCliente/CadastraCliente.jsp" TARGET="page1"
+   TITLE="invalid" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#GerenciamentoCliente" NAME="action1"
+  PATH="/GerenciamentoCliente" SHAPE="32,337,0,0" TITLE="clienteForm"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="showGerenciamentoCliente" NAME="forward0"
+   PATH="/pages/gerenciamentoCliente/GerenciamentoCliente.jsp"
+   TARGET="page2" TITLE="showGerenciamentoCliente" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM ID="#ConsultarCliente" NAME="action2"
+  PATH="/ConsultarCliente" SHAPE="32,449,0,0"
+  TITLE="cadastraClienteForm" TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="showConsultarClienteForm" NAME="forward0"
+   PATH="/pages/gerenciamentoCliente/ConsultarCliente.jsp"
+   TARGET="page3" TITLE="showConsultarClienteForm" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="showResult" NAME="forward1"
+   PATH="/pages/gerenciamentoCliente/ConsultarCliente.jsp"
+   TARGET="page3" TITLE="showResult" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="invalid" NAME="forward2"
+   PATH="/pages/gerenciamentoCliente/ConsultarCliente.jsp"
+   TARGET="page3" TITLE="invalid" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+  <PROCESS-ITEM-OUTPUT ID="showAlterarClienteForm" NAME="forward3"
+   PATH="/pages/gerenciamentoCliente/AlterarCliente.jsp" TARGET="page4"
+   TITLE="showAlterarClienteForm" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="page0"
+  PATH="/pages/gerenciamentoCliente/MsgCliente.jsp" SHAPE="288,34,0,0"
+  SUBTYPE="jsp" TITLE="MsgCliente.jsp" TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM NAME="page1"
+  PATH="/pages/gerenciamentoCliente/CadastraCliente.jsp"
+  SHAPE="288,242,0,0" SUBTYPE="jsp" TITLE="CadastraCliente.jsp"
+  TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM NAME="page2"
+  PATH="/pages/gerenciamentoCliente/GerenciamentoCliente.jsp"
+  SHAPE="240,354,0,0" SUBTYPE="jsp" TITLE="GerenciamentoCliente.jsp"
+  TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM NAME="page3"
+  PATH="/pages/gerenciamentoCliente/ConsultarCliente.jsp"
+  SHAPE="272,466,0,0" SUBTYPE="jsp" TITLE="ConsultarCliente.jsp"
+  TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM NAME="page4"
+  PATH="/pages/gerenciamentoCliente/AlterarCliente.jsp"
+  SHAPE="240,561,0,0" SUBTYPE="jsp" TITLE="AlterarCliente.jsp"
+  TYPE="page" model-entity="StrutsProcessItem"/>
+ <PROCESS-ITEM ID="#AlterarCliente" NAME="action3"
+  PATH="/AlterarCliente" SHAPE="32,769,0,0" TITLE="cadastraClienteForm"
+  TYPE="action" model-entity="StrutsProcessItem">
+  <PROCESS-ITEM-OUTPUT ID="invalid" NAME="forward0"
+   PATH="/pages/gerenciamentoCliente/AlterarCliente.jsp" TARGET="page4"
+   TITLE="invalid" TYPE="forward" model-entity="StrutsProcessItemOutput"/>
+ </PROCESS-ITEM>
+</PROCESS>
