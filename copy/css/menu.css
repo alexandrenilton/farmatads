@@ -1,0 +1,94 @@
+<style>
+  /* DEFAULT STYLES ---- NEEEDED START */
+  .clCMEvent{position:absolute; width:99%; height:99%; clip:rect(0,100%,100%,0); left:0; top:0; visibility:visible; z-index:10;}
+  .clCMAbs{position:absolute; visibility:hidden; left:0; top:0; z-index:10;}
+  /* DEFAULT STYLES ---- NEEEDED END */
+  
+  /* CLASSES PARA O INTERNET EXPLORER */
+  .clT,.clTover,.clS,.clSover,.clS2,.clS2over,.clS3,.clS3over{position:absolute; width:120; font-family:verdana,helvetica; cursor:pointer; cursor:hand; ;}
+  .clT,.clTover{padding:1px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; text-align:left}
+  .clS,.clSover,{padding:1px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px}
+  .clS2,.clS2over,.clS3,.clS3over{padding:1px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:9px}
+  .clT{
+	color:#000000;
+	background-color: #B6D8EE;
+	layer-background-color: #B6D8EE;
+}
+  /*.clT{color:#FFFFFF; background-color:#999999; layer-background-color:#B6D8EE;} */
+  .clS{ /*Configuração da cor do 3º nível do menu */
+	color:#000000;
+	background-color: #D0E6F4;
+	layer-background-color: #B6D8EE;
+}
+  /*.clTover{color:#006699; background-color:#999999; layer-background-color:#999999;} */
+  .clTover{
+	color: #ffffff; 
+	background-color:#679fc0;
+	layer-background-color:#B6D8EE;
+}
+  .clSover{
+	color: #000000;
+	background-color:#f2f2f2;
+	layer-background-color:#f2f2f2
+}
+  .clS2{background-color:#E0F3F8; width:230; layer-background-color:#E0F3F8;}/*Configuração da cor do 2º nível do menu */
+  .clS2over{
+	color:#000000;
+	background-color: #F9F9F9;
+	layer-background-color:#f9f9f9
+}
+  .clS3{color: #000000; background-color:#D0E6F4; width:230; layer-background-color:#B6D8EE;} /*Configuração da cor do 3º nível do menu */
+  .clS3over{color:#000000; background-color:#FAF8F8; layer-background-color:#B6D8EE}
+  .clStest{position:absolute; font-family:verdana; font-size:10px; color:red; layer-background-color:silver; background-color:silver;cursor:pointer; cursor:hand; }
+  .clStestover{position:absolute; color:#ffff33; font-weight:bold; font-family:courier; layer-background-color:#00ccff; background-color:#00ccff;  cursor:pointer; cursor:hand; }
+  .clB1{
+	position:absolute;
+	layer-background-color:#679fc0;
+	background-color: #679fc0;
+	visibility:hidden
+}
+  /*.clB2{position:absolute; layer-background-color:#CCCCCC; background-color:#CCCCCC; visibility:hidden} */
+  .clB2{position:absolute; layer-background-color:#B1DFEB; background-color:#b1dfeb; visibility:hidden}
+  .clB3{
+	position:absolute;
+	layer-background-color:#98C7E7;
+	background-color: #98C7E7;
+	visibility:hidden
+}
+  .clB4{position:absolute; layer-background-color:#006699; background-color:#006699; visibility:hidden}
+/*.clB{position:absolute; background-color:#336699; layer-background-color:#336699; visibility:hidden} */
+   .clB{position:absolute; background-color:#FFFFFF; layer-background-color:#336699; visibility:hidden}
+  .clBar{position:absolute; width:10; height:10; visibility:hidden; layer-background-color:white; background-color:white;}
+  .clNoLink{position:absolute; font-family:arial,helvetica;}
+  .clNoLink2{position:absolute; padding:2px; font-size:11px; color:#006699; layer-background-color:silver; background-color:silver; font-family: verdana, arial,helvetica;}
+  .clNoLink3{position:absolute; background-color:#CDDBEB; layer-background-color:#CDDBEB; font-family: verdana, arial,helvetica;}
+
+   /* CLASSES PARA O NETSCAPE*/
+  .dlT,.dlTover,.dlS,.dlSover,.dlS2,.dlS2over,.dlS3,.dlS3over{position:absolute; overflow:hidden; width:120; font-family:arial,helvetica; cursor:pointer; cursor:hand; ;}
+  .dlT,.dlTover{padding:1px; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:20px;}
+  .dlS,.dlSover{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px}
+  .dlS2,.dlS2over,.dlS3,.dlS3over{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px}
+  .dlT{color:#000000; background-color:#B6D8EE; layer-background-color:#B6D8EE;}
+  .dlS{color:#000000; background-color:#D0E6F4; layer-background-color:#B6D8EE;}
+  .dlTover{color:#ffffff; background-color:#679fc0; layer-background-color:#B6D8EE;}
+  .dlSover{color:#000000; background-color:#f2f2f2; layer-background-color:#f2f2f20}
+  .dlS2{background-color:#E0F3F8; width:230; layer-background-color:#E0F3F8;}
+  .dlS2over{color:#000000; background-color:#F9F9F9; layer-background-color:#f9f9f9}
+  .dlS3{background-color:#FAF8F8; width:230; layer-background-color:#FAF8F8;}
+  .dlS3over{color:#006699; background-color:#FAF8F8; layer-background-color:#FAF8F8}
+  .dlStest{position:absolute; font-family:verdana; font-size:10px; color:red; layer-background-color:silver; background-color:silver;cursor:pointer; cursor:hand; }
+  .dlStestover{position:absolute; color:#ffff33; font-weight:bold; font-family:courier; layer-background-color:#00ccff; background-color:#00ccff;  cursor:pointer; cursor:hand; }
+  .dlB1{visibility:hidden; border-width:0px; position:absolute; layer-background-color:#679fc0; background-color:#679fc0; visibility:hidden}
+  .dlB2{position:absolute; layer-background-color:#B1DFEB; background-color:#b1dfeb; visibility:hidden}
+  .dlB3{position:absolute; layer-background-color:#98C7E7; background-color:#98C7E7; visibility:hidden}
+  .dlB4{position:absolute; layer-background-color:#006699; background-color:#006699; visibility:hidden}
+  //.dlB{position:absolute; background-color:#336699; layer-background-color:#336699; visibility:hidden}
+  .dlB{visibility:hidden; z-index:300; width:150; height:20}
+  .dlBar{position:absolute; width:10; height:10; visibility:hidden; layer-background-color:white; background-color:white;}
+  
+  .dlNoLink{position:absolute; font-family:arial,helvetica;}
+  .dlNoLink2{position:absolute; padding:2px; font-size:11px; color:#006699; layer-background-color:silver; background-color:silver; font-family:arial,helvetica;}
+  .dlNoLink3{position:absolute; background-color:#CDDBEB; layer-background-color:#CDDBEB; font-family:arial,helvetica;}
+
+  
+</style>

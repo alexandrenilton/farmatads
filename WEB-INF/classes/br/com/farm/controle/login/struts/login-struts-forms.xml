@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" 
+	"http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+<struts-config>
+<form-beans>
+	<form-bean name="loginForm"   
+		type="org.apache.struts.action.DynaActionForm" >
+		<form-property name="acao" type="java.lang.String" />
+		<form-property name="email" type="java.lang.String" initial="acesso@gmail.com" />
+		<form-property name="nome" type="java.lang.String" initial="João da Silva"/>
+		<form-property name="senha" type="java.lang.String" initial="eaducon"/>
+		<form-property name="tipoAcesso" type="java.lang.String" initial="A"/>
+	</form-bean>
+</form-beans>
+</struts-config>

@@ -1,0 +1,1001 @@
+/*----------------------------------------------------------Menu TOPO */
+ul#mainlevel-nav
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.8em;
+	color:#FFFFFF;
+}
+
+ul#mainlevel-nav li
+{
+	color: #FFFFFF;
+	display: block;
+	background-image: none;
+	padding-left: -32px;
+	padding-right: 0px;
+	float: left;
+	margin: 0;
+	width: auto !important;
+	width: 12%;
+	font-size: 11px;
+	line-height: 21px;
+	white-space: nowrap;
+	border-left: 1px solid #cccccc;
+	background-position: left center;
+
+}
+
+ul#mainlevel-nav li a
+{
+	width: 100%;
+	display: block;
+	padding-left: 15px;
+	padding-right: 5px;
+	text-decoration: none;
+	color: #333333;
+	background: transparent;
+}
+
+#buttons>ul#mainlevel-nav li a { width: auto; }
+
+	ul#mainlevel-nav li a:hover
+{
+	color: #ffcc00;
+	background: #D84203;
+}
+
+/*----------------------------------------------------------Fim Menu TOPO */
+/*----------------------------------------------------------Colaborador */
+
+
+.homeLateralEsquerdaTabelaInteriorConteudoColaboradorTdNome{
+	vertical-align:top;
+	color:#0092B2;
+	padding-left:10px;
+	text-align:left;
+	height:6%;
+	}
+
+ .homeLateralEsquerdaTabelaInteriorConteudoColaboradorTdNome a:link {
+	text-decoration: none;
+	color:#0092B2;
+	font-weight:600;
+	font-size:9px;
+	text-align:left;
+	padding-right:10px;
+}
+
+.homeLateralEsquerdaTabelaInteriorConteudoColaboradorTdNome a:visited {
+	text-decoration: none;
+	color: #0092B2;
+	font-weight:600;
+	font-size:9px;
+	text-align:left;
+	padding-right:10px;
+}
+
+.homeLateralEsquerdaTabelaInteriorConteudoColaboradorTdNome a:hover{
+	text-decoration: underline; 
+	color: #0092B2;
+	font-weight:600;
+	font-size:9px;
+	text-align:left;
+	padding-right:10px;
+}
+
+.homeLateralEsquerdaTabelaInteriorConteudoColaboradorTdNome a:active {
+   text-decoration: none;
+   color: #0092B2;
+   font-weight:600;
+	font-size:9px;
+   text-align:left;
+   padding-right:9px;
+}
+.homeLateralEsquerdaTabelaInteriorTituloColaborador{
+	background-color:#CEE8E9;
+	color:#006985;
+	text-align:center;
+	font-weight:600;
+	font-size:11px; 
+	}
+.homeLateralEsquerdaTabelaInteriorConteudoColaborador{
+	background-color:#EDF6FB;
+	}
+.homeLateralEsquerdaTabelaInteriorConteudoColaboradorTdFoto{
+	vertical-align:middle;
+	text-align:center;
+	height:77%
+}
+.homeLateralEsquerdaTabelaInteriorConteudoColaboradorTdNome{
+	    vertical-align:top;
+        color:#0092B2;
+        padding-left:10px;
+        text-align:left;
+        height:6%
+	
+	}
+.homeLateralEsquerdaTabelaInteriorConteudoColaboradorTdCargo{
+	vertical-align:top;
+	color:#003C65;
+	font-weight:600;
+	font-size:9px;
+	padding-left:10px;
+	text-align:left;
+	height:6%
+
+}	
+.homeLateralEsquerdaTabelaInteriorConteudoColaboradorTdProjeto{
+	vertical-align:top;
+	color:#003C65;
+	font-weight:600;
+	font-size:9px;
+	padding-left:10px;
+	text-align:left;
+	height:17%
+
+}		
+/*--------------------------------------------------------------------------------Fim do Colaborador */
+
+/* ------------------------------------------------------------------------ Link */
+nada{ background-color : #ffffff;}
+a:hover {  color: #FF9900}
+a:hover { text-decoration: none; }
+a:link {  text-decoration: none;}
+a:active {  text-decoration: none;}
+a:link {  text-decoration: none}
+a:hover { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:link {  text-decoration: none;}
+a:hover {  text-decoration: underline}
+.latestnews {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #006A84;
+	font-weight: bold;
+	text-decoration: none;
+}
+.readon {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #006A84;
+	font-weight: bold;
+	text-decoration: none;
+}
+.latestnewsBola {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FEB832;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------ Fim do Link	*/
+
+/*------------------------------------------------------------------------- Para Todo Site */
+.{
+	font-size:11px; 
+	}
+
+body {
+	font-family: Tahoma, Verdana;
+	font-size: 10px;
+	}
+.menu{
+	height: 17px;
+	background-color: 023B59;
+	color: #FFFFFF;
+	}
+.homeSombra{
+	BORDER-RIGHT: #a7a199 1px solid; 
+	PADDING-RIGHT: 1px;
+	BORDER-TOP: #d3ccc2 1px solid; 
+	PADDING-LEFT: 1px;
+	BACKGROUND: #ffffff; 
+	PADDING-BOTTOM: 1px; 
+	BORDER-LEFT: #d3ccc2 1px solid; 
+	WIDTH: 100%; 
+	PADDING-TOP: 1px; 
+	BORDER-BOTTOM: #a7a199 1px solid;
+	}
+.internaSombra{
+	BORDER-RIGHT: #EFEFEF 2px inset; 
+	PADDING-RIGHT: 5px; 
+	BORDER-TOP: #EFEFEF 1px solid; 
+	PADDING-LEFT: 5px; 
+	BACKGROUND: #ffffff;
+	PADDING-BOTTOM: 5px;
+	BORDER-LEFT: #f7f7f7 1px solid;
+	WIDTH: 100%;
+	PADDING-TOP: 5px; 
+	BORDER-BOTTOM: #EFEFEF 2px inset ;
+	}
+
+.frame {
+	BORDER-RIGHT: #EFEFEF 2px inset; 
+	PADDING-RIGHT: 5px; 
+	BORDER-TOP: #EFEFEF 1px solid; 
+	PADDING-LEFT: 5px; 
+	BACKGROUND: #ffffff;
+	PADDING-BOTTOM: 5px;
+	BORDER-LEFT: #f7f7f7 1px solid;
+	WIDTH: 100%;
+	PADDING-TOP: 5px; 
+	BORDER-BOTTOM: #EFEFEF 2px inset ;
+}
+.frame_interior {
+	BORDER-RIGHT: medium none; 
+	PADDING-RIGHT: 0px;
+	BORDER-TOP: medium none; 
+	PADDING-LEFT: 0px; 
+	BACKGROUND: #f5f5f5; 
+	PADDING-BOTTOM: 0px; 
+	BORDER-LEFT: medium none; 
+	PADDING-TOP: 0px; 
+	BORDER-BOTTOM: medium none;
+}
+
+.frame_fora {
+	BORDER-RIGHT: #cccccc 1px solid;
+	PADDING-RIGHT: 1px; 
+	BACKGROUND: #c0c0c0; 
+	MARGIN-BOTTOM: 8px; 
+	PADDING-BOTTOM: 1px; 
+	MARGIN-RIGHT: 8px;
+	BORDER-BOTTOM: #cccccc 1px solid;
+}
+
+.genericaTopo {
+	background-color:#004064;
+	height: 22px;
+}
+
+.genericaTopoPet {
+	background-color:#234124;
+	height: 22px;
+}
+
+.genericaTopoTdFormCombo {
+	PADDING-LEFT: 8px;
+	PADDING-TOP: 1px; 
+	PADDING-RIGHT: 20px; 
+	PADDING-BOTTOM: 1px;
+}
+.homeFormButao {
+	background-color:#F7F7F7;
+	color:454545;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: 045F8E;
+	border-right-color: 045F8E;
+	border-bottom-color: 045F8E;
+	border-left-color: 045F8E;
+	font-family: Tahoma, Verdana;
+	font-size: 10px;
+	width: 24px;
+	height: 15px;
+}
+.homeFormCombo {
+	background-color:#F7F7F7;
+	color:454545;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: 404040;
+	border-right-color: 0F4A6C;
+	border-bottom-color: 0F4A6C;
+	border-left-color: 404040;
+	font-family: Tahoma, Verdana;
+	font-size: 10px;
+	width: 177px;
+}
+.genericaTopoFormCombo {
+	PADDING-LEFT: 10px; 
+}
+.genericaTopoIcones {
+	width: 188px;
+	background-position: right;
+}
+
+/*------------------------------------------------------------------------- Fim dos Genericos Site*/
+/*------------------------------------------------------------------------- Modulo de gestor */
+.homeLateralEsquerdaTabelaPaiGestor{
+	height: 177px;
+	width: 154px;
+	text-align: right;
+	}
+.homeLateralEsquerdaTabelaInteriorTituloGestorFoto{
+	vertical-align:middle;
+	text-align:center;
+	height:77%;
+	width: 154px;
+	}
+.homeLateralEsquerdaTabelaPaiGestor{
+	height: 177px;
+	width: 154px;
+	text-align: right;
+	}
+.homeLateralEsquerdaTabelaInteriorNomeGestor{
+	color:#0093AD;
+	font-family: Tahoma, verdana;
+	font-size: 9px;
+	vertical-align:top;
+	padding-left:10px;
+	text-align:left;
+	height:6%
+	}
+.homeLateralEsquerdaTabelaInteriorCargoGestor{
+	font-family: Tahoma, verdana;
+	vertical-align:top;
+	color:#003C65;
+	font-weight:600;
+	font-size:9px;
+	padding-left:10px;
+	text-align:left;
+	height:6%
+	}
+.homeLateralEsquerdaTabelaInteriorProjetoGestor{
+	color:#013D62;
+	font-family: Tahoma, verdana;
+	font-size: 9px;
+	vertical-align:top;
+	font-weight:600;
+	font-size:9px;
+	padding-left:10px;
+	text-align:left;
+	height:17%
+	
+	}
+	
+.homeLateralEsquerdaTabelaInteriorConteudoGestor{
+	background-color:#EDF6FB;
+	height: 180px;
+	width: 127px;	
+	}
+.homeLateralEsquerdaTabelaInteriorTituloGestor{
+	background-color:#CEE8E9;
+	color: 026A85;
+	height: 21px;
+	width: 135px;
+	font-family: Tahoma, verdana;
+	font-size: 9px;
+	font-weight: bold;
+	text-align: center;
+	}	
+.homeLateralEsquerdaTabelaInteriorConteudoGestor{
+	background-color:#EDF6FB;
+	height: 180px;
+	width: 127px;	
+	}
+/*------------------------------------------------------------------------- Fim do Modulo de gestor */
+/*------------------------------------------------------------------------- Modulo de Colaborador   */
+.homeLateralEsquerdaTabelaPaiColaborador{
+	height: 177px;
+	width: 154px;
+	text-align: right;
+	}
+.homeLateralEsquerdaTabelaInteriorTituloColaboradorFoto{
+	vertical-align:middle;
+	text-align:center;
+	height:77%;
+	width: 154px;
+	}
+
+.homeLateralEsquerdaTabelaInteriorNomeColaborador{
+	color:#0093AD;
+	font-family: Tahoma, verdana;
+	font-size: 9px;
+	vertical-align:top;
+	padding-left:10px;
+	text-align:left;
+	height:6%
+	height:6%
+	}
+.homeLateralEsquerdaTabelaInteriorCargoColaborador{
+	font-family: Tahoma, verdana;
+	vertical-align:top;
+	color:#003C65;
+	font-weight:600;
+	font-size:9px;
+	padding-left:10px;
+	text-align:left;
+	height:6%
+	}
+.homeLateralEsquerdaTabelaInteriorProjetoColaborador{
+	color:#013D62;
+	font-family: Tahoma, verdana;
+	font-size: 9px;
+	vertical-align:top;
+	font-weight:600;
+	font-size:9px;
+	padding-left:10px;
+	text-align:left;
+	height:17%
+	}
+	
+.homeLateralEsquerdaTabelaInteriorConteudoColaborador{
+	background-color:#EDF6FB;
+	height: 180px;
+	width: 127px;	
+	}
+.homeLateralEsquerdaTabelaInteriorTituloColaborador{
+	background-color:#CEE8E9;
+	color: 026A85;
+	height: 21px;
+	width: 135px;
+	font-family: Tahoma, verdana;
+	font-size: 9px;
+	font-weight: bold;
+	text-align: center;
+	}	
+.homeLateralEsquerdaTabelaInteriorConteudoColaborador{
+	background-color:#EDF6FB;
+	height: 180px;
+	width: 127px;	
+	}
+/*------------------------------------------------------------------------- Fim Modulo de Colaborador */
+/*------------------------------------------------------------------------- Modulo de Capacitação */
+.homeLateralEsquerdaTabelaPaiCapacitacao{
+	height: 175px;
+	width: 157px;
+	text-align: center;
+	}
+.homeLateralEsquerdaTabelaInteriorTituloCapacitacao{
+	background-color:#CEE8E9;
+	color:#0E708B;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+.homeLateralEsquerdaTabelaInteriorConteudoCapacitacao{
+	background-color:#EDF6FB;
+	color:#016984;
+	width: 125px;	
+	text-align: left;
+	PADDING-BOTTOM: 2px;
+	PADDING-LEFT: 6px;
+	PADDING-TOP: 2px; 
+	PADDING-RIGHT: 2px; 
+	}
+.homeLateralEsquerdaTabelaInteriorTituloArtigoCapacitacao{
+	color:#FF8410;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: left;
+	PADDING-BOTTOM: 2px;
+	PADDING-LEFT: 1px;
+	PADDING-TOP: 2px; 
+	PADDING-RIGHT: 2px;
+	}
+
+/*-----------------------------------------------------------------------Fim Modulo de Capacitação */
+/*-----------------------------------------------------------------------Modulo de Imagem */	
+.homeLateralEsquerdaTabelaPaiImagem{
+	height: 177px;
+	width: 154px;
+	text-align: right;
+	}	
+	
+.homeLateralEsquerdaTabelaInteriorImagem{
+	background-color:#CEE8E9;
+	text-align: center;
+	}
+/*------------------------------------------------------------------------Fim Modulo de Imagem */		
+
+.homeLateralEsquerdaTabelaPai{
+	text-align: center;
+	}
+
+.homeLateralEsquerdaTabelaFora{
+	background-color:#C2DBE0;
+	width: 154px;
+	}
+
+/* ---------------------------------------------------------------------- Modulo de Destaque */	
+
+.homeCentroTabelaInteriorDestaqueFoto{
+	vertical-align:topo;
+	}
+
+
+.homeCentroTabelaInteriorDestaqueTitulo{
+	background-color:#18587C;
+	color:#FFFFFF;
+	font-weight: bold;
+	font-stretch:expanded;
+	font-size:11px;	
+	padding-right:2px;
+	padding-left:4px;
+	}
+.homeCentroTabelaInteriorDestaqueTituloInterno{
+	color:#5D5D5D;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 12px;
+	}
+.homeCentroTabelaInteriorDestaqueMateria{
+	color:#5C5C5C;
+	}
+
+.homeCentroTabelaInteriorDestaqueLink{
+	color:#FECA67;
+	}
+	
+/* --------------------------------------------------------------------Fim Modulo de Destaque */	
+/* --------------------------------------------------------------------Modulo de Assunto1Titulo */
+.homeCentroTabelaInteriorAssunto1Titulo{
+	background-color:#18587C;
+	color:#FFFFFF;
+	font-weight: bold;
+	font-stretch:expanded;
+	font-size:11px;	
+	padding-right:2px;
+	padding-left:4px;
+	}
+.homeCentroTabelaInteriorAssunto1TituloInterno{
+	color:#5D5D5D;
+	font-family: Tahoma;
+	font-weight: bold;
+	}
+.homeCentroTabelaInteriorAssunto1Materia{
+	color:#5C5C5C;
+	}
+
+.homeCentroTabelaInteriorAssunto1Link{
+	color:#FECA67;
+	}
+
+/* ---------------------------------------------------------------------Fim Modulo de Assunto1Titulo */
+/* ---------------------------------------------------------------------Modulo de Assunto2Titulo */
+.homeCentroTabelaInteriorAssunto2Titulo{
+	background-color:#18587C;
+	color:#FFFFFF;
+	size:10;
+	}
+.homeCentroTabelaInteriorAssunto2TituloInterno{
+	color:#5D5D5D;
+	font-family: Tahoma;
+	font-weight: bold;
+	}
+.homeCentroTabelaInteriorAssunto2Materia{
+	color:#5C5C5C;
+	}
+
+.homeCentroTabelaInteriorAssunto2Link{
+	color:#FECA67;
+	}
+/* --------------------------------------------------------------------Fim Modulo de Assunto2Titulo */
+/* --------------------------------------------------------------------Modulo de Assunto3Titulo */
+	
+.homeCentroTabelaInteriorAssunto3Titulo{
+	background-color:#18587C;
+	color:#FFFFFF;
+	size:10;
+	}
+.homeCentroTabelaInteriorAssunto3TituloInterno{
+	color:#5D5D5D;
+	font-family: Tahoma;
+	font-weight: bold;
+	}
+.homeCentroTabelaInteriorAssunto3Materia{
+	color:#5C5C5C;
+	}
+
+.homeCentroTabelaInteriorAssunto3Link{
+	color:#FECA67;
+	}
+.homeCentroTabelaInteriorAssunto3Foto{
+	background-position: center center;
+	}
+	
+/* -------------------------------------------------------------------- Fim Modulo de Assunto3Titulo */
+/* -------------------------------------------------------------------- Modulo de Artigo */
+.homeLateralEsquerdaTabelaInteriorTituloArtigo{
+	background-color:#DEDEDE;
+	font-size:11px;
+	color:#18587C;
+	text-align:center;
+	vertical-align:middle;
+	font-weight:600;
+	height:21;
+	}
+.homeLateralEsquerdaTabelaInteriorTituloMateriaArtigo{
+	color:#FAA04A;
+	font-size: 10px;
+	font-weight: bold;
+	}
+.homeLateralEsquerdaTabelaInteriorDescricaoMateriaArtigo{
+	color:#006987;
+	font-size: 10px;
+	}
+.homeLateralEsquerdaTabelaInteriorConteudoArtigo{
+	background-color:#18587C;
+}
+
+.homeLateralEsquerdaTabelaInteriorBrancaArtigo{
+	background-color:#FFFFFF;
+	width: 144px;
+	}
+.homeLateralDireitaTabelaInteriorTituloArtigo{
+	font-size:11px;
+	color:#FEB832;
+	text-align:left;
+	vertical-align:middle;
+	font-weight:600;
+	height:21;
+	PADDING-LEFT: 3px;
+  }
+.homeLateralEsquerdaTabelaInteriorConteudoArtigoTexto{
+   vertical-align:top;
+   color:#ffffff;
+   font-size:10px;
+   text-align:left;
+   padding-left:5px;
+   padding-right:10px;
+   text-decoration: none;  
+}
+/*
+.homeLateralEsquerdaTabelaInteriorConteudoArtigoTexo{
+   vertical-align:top;
+   color:#ffffff;
+   font-size:10px;
+   text-align:left;
+   padding-left:5px;
+   padding-right:2px;
+   text-decoration: none;  
+}
+*/
+
+.homeLateralDireitaTabelaInteriorTituloMateriaArtigo{
+	color:#FAA04A;
+	font-size: 10px;
+	font-weight: bold;
+	}
+.homeLateralDireitaTabelaInteriorConteudoMateriaArtigo{
+	color:#FEFEFE;
+	font-size: 10px;
+	font-weight: bold;
+	}
+.homeLateralDireitaTabelaInteriorDescricaoMateriaArtigo{
+	color:#006987;
+	font-size: 10px;
+	}
+
+/* -------------------------------------------------------------------Modulo de Fim do Artigo */
+
+.homeLateralEsquerdaTabelaInteriorTituloEnquete{
+	background-color:#DEDEDE;
+	}
+	
+.homeLateralEsquerdaTabelaInteriorConteudoEnquete{
+	background-color:#FFFFFF;
+	}
+/* -----------------------------------------------------------------Modulo de Busca */
+
+.homeLateralEsquerdaTabelaInteriorTituloBusca{
+	background-color:#F6F4F5;
+}
+
+/* -----------------------------------------------------------------Modulo de Fim Busca */
+.homeLateralEsquerdaTabelaInterior{
+	background-color:#CEE8E9;
+	height: 182px;
+	width: 127px;
+	text-align: center;
+	}
+.homeLateralEsquerdaTabelaInteriorBranca{
+	background-color:#FFFFFF;
+	}
+
+.homeLateralDireitaTabelaInteriorConteudoArtigo{
+	background-color:#18587C;
+	height: 410px;
+	width: 134px;
+}
+.homeLateralDireitaTabelaInteriorTituloEnquete{
+	background-color:#DEDEDE;
+	}
+.homeLateralDireitaTabelaInteriorConteudoEnquete{
+	background-color:#FFFFFF;
+	}
+.homeLateralDireitaTabelaInteriorTituloBusca{
+	background-color:#F6F4F5;
+}
+.homeLateralDireitaTabelaInterior{
+	background-color:#CEE8E9;
+	height: 182px;
+	width: 129px;
+	}
+.homeLateralEsquerdaTabelaInterior{
+	background-color:#CEE8E9;
+	height: 182px;
+	width: 129px;
+	}
+.homeLateralEsquerdaTabelaInteriorBranca{
+	background-color:#FFFFFF;
+	}
+.homeLateralDireitaTabelaInteriorBranca{
+	background-color:#FFFFFF;
+	}
+	
+/* ------------------------------------------------------------------- Fim home */
+
+/* ------------------------------------------------------------------- Interna */
+
+.InternaLateralEsquerdaMenu{
+	background-color:#FFFFFF;
+	width: 154px;
+	
+	}
+InternaLateralEsquerdaMenuFora{
+	background-color:#C5DEDE;
+	WIDTH: 100%;
+	}
+.internaCentroTabelaInteriorAssunto1Titulo{
+	background-color:#18587C;
+	color:#FFFFFF;
+	size:10;
+	}
+.internaCentroTabelaInteriorDestaqueContemFotoTitulo{
+	vertical-align: middle;
+	}
+.internaCentroTabelaInteriorDestaqueFoto{
+	vertical-align: middle;
+	}
+.internaCentroTabelaInteriorDestaqueFotoTitulo{
+	color:#023D5A;
+	font-family: Tahoma;
+	font-weight: bold;
+	}
+
+/* ------------------------------------------------------------------- Fim Interna */
+
+/* -------------------------------------------------------------------  Ferramenta  */
+
+.moduletableCem {
+	background: url(../images/subhead_bg.png) repeat-x ;
+	color: #19577E;
+	padding-top: 4px;
+	padding-left: 4px;
+	height: 21px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+table.moduletable th {
+	background: url(../images/subhead_bg.png) repeat-x ;
+	color: #19577E;
+	text-align: center;
+	padding-top: 4px;
+	padding-left: 4px;
+	height: 21px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+.sectiontableentry2 {
+	background-color : #f9f9f9;
+}
+.sectiontableentry1 {
+	background-color : #ffffff;
+}
+
+/* -------------------------------------------------------------------  Fim Ferramenta  */
+
+
+
+
+/****************************** GENERAL ***********************************************/
+.titre {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	font-weight: bold; 
+	color: #000000} /*preto*/
+	
+.erreur {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	font-weight: bold; 
+	color: #000000}
+
+table {	
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #000000} /*label campo e título tabela interna*/
+	
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #000000} /*preto*/
+
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #000000} /*texto pré-definido do campo resumo*/
+	
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #000000}  /*caixa de texto*/
+	
+select {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	color: #000000} /*combo*/
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	font-weight: bold; color: #7D0000;  /*preto*/
+	text-decoration: none}
+	
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	font-weight: bold; 
+	color: #000000;
+	text-decoration: underline}
+	
+#issueListMenuTable tr td a { 
+		color:#FFFFFF; 
+		font-weight:bold; 
+		font-size: 10px}
+		
+#issueListMenuTable a:hover { 
+		color:#FFAD27; 
+		font-weight:bold; 
+		font-size: 10px}
+	
+/**************************ISSUE LIST**********************************************/
+
+.linksAndInfo  {
+		background-color:#FFFFFF;} 
+		
+.linksAndInfo tr{
+		background-color:#FFFFCD;} 
+		
+.linksAndInfo select {
+		background-color:#FFFFCD;} 
+		
+.issueListTable{
+		background-color:#FFFFFF; 
+		font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 8pt;  
+		font-weight:normal;}
+		
+.issueListTable tr{
+		background-color:#E3F1F5; }
+
+#issueListTableHead  { 
+		background-color:#0092B5; }
+		
+#issueListTableHead  a { 
+		color: white; 
+		font-weight:bold;}
+
+
+/**************************ISSUE DETAIL LIST**********************************************/
+.issueDetailTable{
+		background-color:#0092B5; 
+		border-top:1px solid #E3F1F5;
+		border-left:1px solid #E3F1F5;
+		border-right:1px solid #0092B5;
+		border-bottom:1px solid #0092B5;
+		font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 11px;  
+		font-weight:normal;
+		}
+		
+.issueDetailTable tr{
+		background-color:#E3F1F5;}
+		
+.issueDetailTableHead td { 
+		 background-color:#0092B5; }
+		 
+.issueDetailTableHead a { 
+		 color: gray; 
+		 font-weight:bold; }
+		
+.issueDetailMandatorySign {
+		color:#FF0000;}
+	
+.filterprinting{
+	background-color:#D6D9E6;}
+	
+a.radioLink {
+	font-weight: normal; 
+	text-decoration: none}
+	
+a.radioLink:hover {
+	font-weight: normal; 
+	text-decoration: none;}
+	
+/**************************ACTIVITIES**********************************************/
+		
+.activitiesFilter tr{
+		background-color:#F2F2E0;} 
+		
+.activitiesTable{
+		background-color:#D0D0FF; 
+		font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 11px;  
+		font-weight:normal;
+		}
+.activitiesTable tr{
+		background-color:#E3F1F5;}
+		
+.activitiesTableHead td { 
+		 background-color:#0092B5; }
+		 
+/**************************YOUR ACCOUNT**********************************************/
+		
+.accountTable{
+		background-color:#D0D0FF; 
+		font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 11px;  
+		font-weight:normal;
+		}
+		
+.accountTable tr{
+		background-color:#E3F1F5;
+		}
+		
+.accountTableHead td { 
+		 background-color:#0092B5; }
+		 
+		 
+/**************************REPORT**********************************************/
+.reportTable{
+		background-color:#D0D0FF; 
+		font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 11px;  
+		font-weight:normal;
+		}
+		
+.reportTable tr{
+		background-color:#E3F1F5;}
+		
+.reportTableHead td { 
+		 background-color:#0092B5; 
+		 }
+		 
+.reportCell {
+	background-color:#f9f9f9;
+	}
+	
+.reportCell {
+	background-color:#ffffff;
+}
+
+/**************************ADMIN**********************************************/
+.adminTable{
+		background-color:#FFFFFF; 
+		font-family: Verdana, Arial, Helvetica, sans-serif; 
+		font-size: 11px;  
+		font-weight:normal;
+		}
+		
+.adminTable tr{
+		background-color:#E3F1F5;}
+		
+.adminTableHead td { 
+		 background-color:#0092B5; 
+		 }
+		 

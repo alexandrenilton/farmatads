@@ -1,0 +1,94 @@
+<%@ taglib uri="http://struts.apache.org/tags-bean" prefix="bean" %>
+<%@ taglib uri="http://struts.apache.org/tags-html" prefix="html" %>
+<%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic" %>
+
+<link rel="stylesheet" href="css/geral.css" />
+
+<style>
+
+
+
+
+</style>
+
+<html:html>
+<body>
+
+	
+
+<html:form action="/Login.do" method="post" >
+<html:hidden property="acao" value="run"/>
+	
+	<!-- 
+	<p>
+		<i><b>Erros Encontrados:</b></i>
+		<html:messages id="errors">
+			<bean:write name="errors" />
+			<br />
+		</html:messages>
+	</p>
+	-->
+	<div align="center">
+	
+	<p>
+		<html:messages id="err_acesso" property="acesso">
+			<font class="erroTopoPagina" ><bean:write name="err_acesso" /></font>
+		</html:messages>
+	</p>
+	
+	</div>
+	
+	<br />
+	<br />
+	<br />
+	<br />
+	<div align="center">
+		<h3>Login:</h3>
+	</div>
+	<table border="0" background="copy/img/bg.png" align="center">
+		<tr>
+			<td><bean:message key="loginForm.email"/></td>
+			<td><html:text property="email"/></td>
+			<td class="erroValidacao">
+				<html:messages id="err_email" property="email" >
+					<bean:write name="err_email" />
+				</html:messages>
+			</td>
+		</tr>
+		
+		<tr>
+			<td><bean:message key="loginForm.senha"/></td>
+			<td><html:password property="senha" /></td>
+			<td class="erroValidacao">
+				<html:messages id="err_senha" property="senha">
+					<bean:write name="err_senha" />
+				</html:messages>
+			</td>
+		</tr>
+		
+		<tr>
+			<td><bean:message key="loginForm.tipo"/></td>
+			<td>
+				<html:radio property="tipoAcesso" value="A">Administrador</html:radio>
+				<html:radio property="tipoAcesso" value="F">Funcionário</html:radio>
+			</td>
+			<td class="erroValidacao">
+				<html:messages id="err_tipoAcesso" property="tipoAcesso">
+					<bean:write name="err_tipoAcesso" />
+				</html:messages>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+			</td>
+			<td colspan="2">
+				<html:submit value="Logar" />
+				<html:reset value="Limpar"></html:reset>
+			</td>
+		</tr>
+	</table>
+</html:form>
+</body>	
+</html:html>
+

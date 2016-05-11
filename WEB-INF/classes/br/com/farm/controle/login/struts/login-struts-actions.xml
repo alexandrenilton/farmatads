@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" 
+	"http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<action-mappings>
+		<action  
+			path="/Login" 
+			type="br.com.farm.controle.login.actions.LoginAction"
+			name="loginForm"
+			input="/pages/Login.jsp"
+			validate="true"
+			scope="request" >
+			<forward name="showLoginForm" path="/pages/Login.jsp" redirect="false"/>
+			<forward name="invalid" path="/pages/Login.jsp" redirect="false" />
+			<forward name="success" path="/pages/Inicio.jsp" redirect="false" />
+		</action>
+	</action-mappings>
+</struts-config>

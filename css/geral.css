@@ -1,0 +1,14 @@
+.erroValidacao {
+	border-bottom: navy solid thin;
+	border-top: navy solid thin;
+	border-left: none;
+	border-right: none;
+	font-size: smaller;
+	color: #A62A2A;
+}
+
+.erroTopoPagina{
+	font-size: small;
+	color: #A62A2A;
+	font: bold;
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" 
+	"http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<action-mappings>
+		<!-- Abre menu de opcoes de gerenciamento de cliente 
+			foi criando em action para verificar a permissao-->
+		<action
+			path="/GerenciamentoCliente"
+			type="br.com.farm.controle.gerenciamentoCliente.actions.GerenciamentoClienteAction"
+			name="clienteForm"
+			validate="false"
+			scope="request">
+			<forward name="showGerenciamentoCliente" path="/pages/gerenciamentoCliente/GerenciamentoCliente.jsp" redirect="false" />
+		</action>
+		
+		<!-- Cadastramento de Cliente -->
+		<action  
+			path="/CadastraCliente" 
+			type="br.com.farm.controle.gerenciamentoCliente.actions.CadastraClienteAction"
+			name="cadastraClienteForm"
+			input="/pages/gerenciamentoCliente/CadastraCliente.jsp"
+			validate="true"
+			scope="request" >
+			<forward name="invalid" path="/pages/gerenciamentoCliente/CadastraCliente.jsp" redirect="false"/>
+			<forward name="showCadastroClienteForm" path="/pages/gerenciamentoCliente/CadastraCliente.jsp" redirect="false"/>
+			<forward name="successCadastroCliente" path="/pages/gerenciamentoCliente/MsgCliente.jsp?acao=success" redirect="false" />
+			<forward name="failureCadastroCliente" path="/pages/gerenciamentoCliente/MsgCliente.jsp?acao=failure" redirect="false" />
+		</action>
+		
+		<action
+			path="/ConsultarCliente"
+			type="br.com.farm.controle.gerenciamentoCliente.actions.ConsultarClienteAction"
+			name="cadastraClienteForm"
+			validate="false"
+			input="/pages/gerenciamentoCliente/ConsultarCliente.jsp"
+			scope="request">
+			<forward name="invalid" path="/pages/gerenciamentoCliente/ConsultarCliente.jsp" redirect="false" />
+			<forward name="showConsultarClienteForm" path="/pages/gerenciamentoCliente/ConsultarCliente.jsp" redirect="false" />
+			<forward name="showResult"               path="/pages/gerenciamentoCliente/ConsultarCliente.jsp" redirect="false" />
+			<forward name="showAlterarClienteForm"   path="/pages/gerenciamentoCliente/AlterarCliente.jsp" redirect="false" />
+		</action>
+		
+		<action
+			path="/AlterarCliente"
+			type="br.com.farm.controle.gerenciamentoCliente.actions.AlterarClienteAction"
+			name="cadastraClienteForm"
+			validate="false"
+			input="/pages/gerenciamentoCliente/AlterarCliente.jsp"
+			scope="request">
+			<forward name="invalid" path="/pages/gerenciamentoCliente/AlterarCliente.jsp" redirect="false" />
+			<forward name="successUpdateCliente" path="/pages/gerenciamentoCliente/MsgCliente.jsp?acao=successUpdate" redirect="false" />
+			<forward name="failureUpdateCliente" path="/pages/gerenciamentoCliente/MsgCliente.jsp?acao=failureUpdate" redirect="false" />
+			<forward name="successDeleteCliente" path="/pages/gerenciamentoCliente/MsgCliente.jsp?acao=successDelete" redirect="false" />
+			<forward name="failureDeleteCliente" path="/pages/gerenciamentoCliente/MsgCliente.jsp?acao=failureDelete" redirect="false" />
+		</action>
+
+		
+	</action-mappings>
+</struts-config>
